@@ -1,0 +1,170 @@
+body{
+	background: #eee;
+}
+p{
+	margin: 0;
+	cursor: default;
+}
+table{
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.btn{
+	cursor: pointer;
+}
+.arrow-down{
+	background: url('../img/下拉.png');
+	width: 12px;
+	height: 7px;
+	margin: 0 7px;
+	cursor: pointer;
+}
+
+/*TOP-BAR*/
+.subpage .layout .top-bar{
+	padding: 32px 0;
+}
+.subpage .layout .top-bar .top-bar-wrap{
+	display: inline-block;
+	height: 46px;
+	width: 100%;
+}
+.subpage .layout .top-bar .wrap-left{
+	float: left;
+	display: inline-block;
+	height: 46px;
+	line-height: 46px;
+}
+
+.subpage .layout .top-bar .wrap-left .navigation-logo{
+	display: inline-block;
+	width: 40px;
+	height: 46px;
+	vertical-align: top;
+}
+.subpage .layout .top-bar .wrap-left .navigation-title{
+	display: inline-block;
+	font-family: PingFangSC-Regular;
+	font-size: 24px;
+	color: #99A9BF;
+	margin-left: 16px;
+}
+
+.subpage .layout .top-bar .wrap-right{
+	float: right;
+	display: inline-block;
+	height: 46px;
+	line-height: 46px;
+}
+.subpage .layout .top-bar .wrap-right .btn{
+	width: 140px;
+	height: 40px;
+	box-sizing: border-box;
+	line-height: 40px;
+	margin: 3px 5px;
+	background: #3B73DB;
+	border-radius: 5px;
+}
+.subpage .layout .top-bar .wrap-right .btn a{
+	font-family: PingFangSC-Regular;
+	font-size: 16px;
+	color: #FFFFFF;
+	line-height: 14px;
+}
+.subpage .layout .top-bar .wrap-right .btn img{
+	vertical-align: middle;
+	margin: -4px 10px 0 0;
+}
+/*TOP-BAR END*/
+
+/*PRODUCTION*/
+.production-box{
+	background: #fff;
+	padding: 0 30px 30px 30px;
+	margin-bottom: 16px;
+}
+.production-box .production-box-header{
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	font-family: PingFangSC-Regular;
+	font-size: 16px;
+	color: #1F2D3D;
+}
+.production {
+	height: 160px;
+	border-bottom: 1px solid #E1E3E6;
+}
+.production:last-child{
+	border-bottom: 0px;
+}
+.production .production-img div{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+}
+.production .production-img div img{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+}
+.production-summary{
+	padding-left: 20px;
+}
+.production-summary .production-name{
+	font-family: PingFangSC-Regular;
+	font-size: 16px;
+	color: #1F2D3D;
+	line-height: 14px;
+	margin: 14px 0;
+}
+.production-summary .production-content{
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	color: #99A9BF;
+	line-height: 24px;
+}
+
+.production-cost .cost{
+	margin: 10px 0;
+}
+.production-cost .cost span:first-child{
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	color: #99A9BF;
+	line-height: 14px;
+	margin: 0 8px;
+}
+.production-cost .cost span:last-child{
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	color: #333333;
+	line-height: 14px;
+	margin: 0 8px;
+}
+
+.production-protocol .protocol{
+	width: 250px;
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	color: #1F2D3D;
+	line-height: 14px;
+	margin: 10px 0;
+}
+
+.production-state{
+	font-family: PingFangSC-Regular;
+	font-size: 16px;
+	color: #99A9BF;
+	line-height: 16px;
+	text-align: center;
+}
+.production-state .state-dot{
+	background: #F7BA2A;
+	border-radius: 50%;
+	width: 7px;
+	height: 7px;
+	vertical-align: middle;
+	margin: 8px;
+}
