@@ -2,16 +2,16 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>金科空间站</title>
+	<title>我的购物车</title>
 
 		<!-- Styles -->
 	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/shoppingCart.css">
 	<link rel="stylesheet" href="css/responsive.css">
 	<link rel="stylesheet" href="css/prettyPhoto.css">
 	<link rel="stylesheet" type="text/css" href="css/settings.css" media="screen"/>
 	<link rel="stylesheet" href="css/color-scheme/blue.css">
 	<link rel="stylesheet" href="css/jquery-ui.css">
+	<link rel="stylesheet" href="css/shoppingCart.css">
 
 		<!-- Base JS -->
 	<script src="js/jquery-1.9.1.min.js"></script>
@@ -36,16 +36,16 @@
 				</div>
 			</div>
 			<div class="table-header">
-			<table><tr>
-				<td><div class="checkbox"><input type="radio"></div></td>
-				<td><table><tr>
-					<td class="th-choseAll"><span>全选</span></td>
-					<td class="th-production col-1_4"><span>产品</span></td>
-					<td class="th-cost col-1_4"><span >费用</span></td>
-					<td class="th-protocol col-1_4"><span>协议</span></td>
-					<td class="th-action col-1_4"><span>操作</span></td>
-				</tr></table></td>
-			</tr></table>
+				<table><tr>
+					<td><div class="checkbox"><input type="radio"></div></td>
+					<td><table><tr>
+						<td class="th-choseAll"><span>全选</span></td>
+						<td class="th-production col-1_4"><span>产品</span></td>
+						<td class="th-cost col-1_4"><span >费用</span></td>
+						<td class="th-protocol col-1_4"><span>协议</span></td>
+						<td class="th-action col-1_4"><span>操作</span></td>
+					</tr></table></td>
+				</tr></table>
 			</div>
 			<div class="production-box">
 				<table>
@@ -194,6 +194,40 @@
 					</td>
 				</tr>
 				</table>
+			</div>
+			<div class="confirm-bar">
+				<table><tr>
+					<td><div class="checkbox"><input type="radio"></div></td>
+					<td><table><tr>
+						<td class="th-choseAll"><span>全选</span></td>
+						<td class="production-action">
+							<p class="action-subscribe"><i class="icon-subscribe"></i>移到我的订阅</p>
+							<p class="action-delete"><i class="icon-delete"></i>移除</p>
+						</td>
+						<td class="wrap-right">
+							<span>已选择<span class="number">2</span>件产品</span>
+							<a class="btn colored">线上签约</a>
+						</td>
+					</tr></table></td>
+				</tr></table>
+			</div>
+			<div class="popup">
+				<div class="option">
+					<div class="checkbox checkbox-selected"><input type="radio"></div>
+					<span>SDK接入</span>
+				</div>
+				<div class="option">
+					<div class="checkbox checkbox-selected"><input type="radio"></div>
+					<span>H5接入</span>
+				</div>
+				<div class="option">
+					<div class="checkbox"><input type="radio"></div>
+					<span>API接入</span>
+				</div>
+				<div class="confirm">
+					<a class="btn colored">确定</a>
+					<a class="btn">取消</a>
+				</div>
 			</div>
 		</div>
 	</div>
