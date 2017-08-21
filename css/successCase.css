@@ -1,0 +1,65 @@
+.case{
+	height: 280px;
+	width: 100%;
+	background: #fff;
+	padding: 60px;
+	box-sizing: border-box;
+	box-shadow: 0 2px 4px 0 #E6F2FF;
+	margin: 30px 0;
+}
+.case .wrap figure{
+	width: 150px;
+	font-size: 0;
+	display: inline-block;
+	padding-right: 30px;
+	float: left;
+}
+.case .wrap figure img{
+	max-width: 100%;
+	height: 120px;
+}
+.case .wrap figure figcaption{
+	font-family: PingFangSC-Regular;
+	font-size: 20px;
+	color: #1F2D3D;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.case .key, .value{
+	display: block;
+}
+.case .key{
+	width: 70px;
+	vertical-align: top;
+	float: left;
+}
+.case .value{
+	overflow: hidden;
+	padding-left: 30px;
+}
+.case .case-summary{
+	display: block;
+	overflow: hidden;
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	color: #99A9BF;
+	line-height: 21px;
+	vertical-align: top;
+	box-sizing: border-box;
+}
+.case-summary .case-type{
+	margin-bottom: 30px;
+}
+.case .customer{
+	margin-bottom: 30px;
+	height: 63px;
+}
+.case .connect-product .product-name{
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	color: #3B73DB;
+	line-height: 14px;
+	margin-right: 15px;
+}
+
