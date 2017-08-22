@@ -1,0 +1,104 @@
+/*TOP-BAR*/
+.subpage .layout .top-bar{
+	padding: 32px 0;
+}
+.subpage .layout .top-bar .top-bar-wrap{
+	display: inline-block;
+	height: 46px;
+	width: 100%;
+}
+.subpage .layout .top-bar .wrap-left{
+	float: left;
+	display: inline-block;
+	height: 46px;
+	line-height: 46px;
+}
+
+.subpage .layout .top-bar .wrap-left .navigation-title{
+	display: inline-block;
+	font-family: PingFangSC-Regular;
+	font-size: 24px;
+	color: #99A9BF;
+	margin-left: 16px;
+}
+
+/*顶部状态轴*/
+.active-dot{
+	background: #F7BA2A !important;
+}
+.active-name{
+	color: #F7BA2A !important;
+}
+.active-line{
+	background: #F7BA2A !important;
+}
+
+.status-bar{
+	height: 46px;
+	overflow: hidden;
+	line-height: 46px;
+	font-size: 0;
+	text-align: right;
+	padding-right: 30px;
+}
+.status-cell{
+	height: 15px;
+	width: 15px;
+	display: inline-block;
+	position: relative;
+}
+.status-cell .status-dot{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background: #C0CCDA;
+}
+.status-cell .status-name{
+	width: 48px;
+	height: 12px;
+	line-height: 12px;
+	font-family: PingFangSC-Regular;
+	font-size: 12px;
+	color: #C0CCDA;
+	letter-spacing: 0;
+	overflow: visible;
+	position: absolute;
+	top: 25px;
+	left: -17.5px;
+
+}
+.line-wrap{
+	height: 15px;
+	width: 18%;
+	display: inline-block;
+	padding: 7px 0;
+}
+.line-wrap .status-line{
+	height: 1px;
+	background: #C0CCDA;
+}
+/*顶部状态轴END*/
+
+.content{
+	font-family: PingFangSC-Regular;
+	color: #99A9BF;
+	background-color: #fff;
+	padding: 60px 96px;
+	margin-top: 40px;
+}
+.content-header{
+	height: 30px;
+	text-align: center;
+	font-size: 20px;
+	line-height: 30px;
+}
+.content-header .title{
+	margin-left: 10px;
+}
+.content-body{
+	font-size: 16px;
+	margin-top: 60px;
+}
+.content-body p{
+	margin: 30px 0;
+}
