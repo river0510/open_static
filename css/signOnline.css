@@ -1,0 +1,213 @@
+/*TOP-BAR*/
+.subpage .layout .top-bar{
+	padding: 32px 0;
+}
+.subpage .layout .top-bar .top-bar-wrap{
+	display: inline-block;
+	height: 46px;
+	width: 100%;
+}
+.subpage .layout .top-bar .wrap-left{
+	float: left;
+	display: inline-block;
+	height: 46px;
+	line-height: 46px;
+}
+
+.subpage .layout .top-bar .wrap-left .navigation-title{
+	display: inline-block;
+	font-family: PingFangSC-Regular;
+	font-size: 24px;
+	color: #99A9BF;
+	margin-left: 16px;
+}
+
+/*顶部状态轴*/
+.active-dot{
+	background: #F7BA2A !important;
+}
+.active-name{
+	color: #F7BA2A !important;
+}
+.active-line{
+	background: #F7BA2A !important;
+}
+
+.status-bar{
+	height: 46px;
+	overflow: hidden;
+	line-height: 46px;
+	font-size: 0;
+	text-align: right;
+	padding-right: 30px;
+}
+.status-cell{
+	height: 15px;
+	width: 15px;
+	display: inline-block;
+	position: relative;
+}
+.status-cell .status-dot{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background: #C0CCDA;
+}
+.status-cell .status-name{
+	width: 48px;
+	height: 12px;
+	line-height: 12px;
+	font-family: PingFangSC-Regular;
+	font-size: 12px;
+	color: #C0CCDA;
+	letter-spacing: 0;
+	overflow: visible;
+	position: absolute;
+	top: 25px;
+	left: -17.5px;
+
+}
+.line-wrap{
+	height: 15px;
+	width: 18%;
+	display: inline-block;
+	padding: 7px 0;
+}
+.line-wrap .status-line{
+	height: 1px;
+	background: #C0CCDA;
+}
+/*顶部状态轴END*/
+
+/*content 顶部条*/
+.content .content-top-bar{
+	height: 40px;
+	width: 100%;
+	line-height: 40px;
+	margin: 70px 0 16px 0;
+	padding-right: 50px;
+}
+.content .content-top-bar .wrap-right p{
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	color: #99A9BF;
+	display: inline-block;
+}
+.content .content-top-bar .wrap-right p span{
+	font-family: PingFangSC-Regular;
+	font-size: 20px;
+	color: #003100;
+	margin: 0 5px;
+}
+.content .content-top-bar .wrap-right .btn{
+	font-family: PingFangSC-Regular;
+	width: 126px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	margin-left: 30px;
+}
+/*content 顶部条 END*/
+
+/*订单表格*/
+table{
+	width: 100%;
+}
+.order{
+	background: #fff;
+	font-family: PingFangSC-Regular;
+	color: #99A9BF;
+}
+.order th{
+	height: 60px;
+	font-size: 16px;
+	font-weight: 200;
+}
+
+.order .product{
+	border-top: 1px solid #eee;
+}
+
+.protocol-cell td, .state-cell td{
+	height: 50px;
+	font-size: 14px;
+} 
+
+.product-cell p{
+	width: 150px;
+	display: block;
+	margin: 0 auto;
+	font-size: 16px;
+}
+td.product-cell{
+	color: #3B73DB;
+	border-right: 1px solid #eee;
+}
+td.protocol-cell{
+	border-right: 1px solid #eee;
+	padding: 0;
+}
+td.protocol-cell tr{
+	border-bottom: 1px solid #eee;
+}
+th.protocol-cell, td.protocol-cell td{
+	padding-left: 50px;
+}
+
+td.protocol-cell tr:last-child{
+	border-bottom: 0px;
+}
+.product-type{
+	border-radius: 3px;
+	background: #3B73DB;
+	color: #fff;
+	padding: 2px 10px;
+	font-size: 14px;
+	margin-left: 5px;
+}
+
+th.state-cell, td.state-cell td{
+	padding-left: 50px;
+}
+td.state-cell td{
+	transform: translateX(-16px);
+}
+td.state-cell{
+	padding: 0;
+}
+td.state-cell tr{
+	border-bottom: 1px solid #eee;
+}
+td.state-cell tr:last-child{
+	border-bottom: 0;
+}
+.state-cell .state-dot{
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	display: inline-block;
+	background: #3B73DB;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.active-state-dot{
+	background: #99A9BF !important;
+}
+
+.confirm-bar{
+	height: 80px;
+	width: 100%;
+	background: #fff;
+	padding: 0 15px;
+	background-clip: content-box;
+	line-height: 80px;
+	text-align: right;
+	margin: 16px 0;
+}
+.confirm-bar .btn{
+	width: 136px;
+	height: 40px;
+	line-height: 40px;
+	margin-right: 30px;
+}
+/*订单表格 END

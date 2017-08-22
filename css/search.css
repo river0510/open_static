@@ -1,11 +1,11 @@
-.subPage .layout .navigation{
+.subpage .layout .navigation{
 	background: #ECF2F8;
 	padding: 0 40px;
 	height: 80px;
 	line-height: 80px;
 	margin-top: 25px;
 }
-.subPage .layout .navigation .navigation-title{
+.subpage .layout .navigation .navigation-title{
 	float: left;
 	display: inline-block;
 	font-family: PingFangSC-Medium;
@@ -14,7 +14,7 @@
 	height: 80px;
 	line-height: 80px;
 }
-.subPage .layout .navigation .wrap-right .search-input{
+.subpage .layout .navigation .wrap-right .search-input{
 	width: 340px;
 	height: 45px;
 	margin: 17.5px 0;
@@ -22,7 +22,7 @@
 	border-radius: 3px 0 0 3px;
 	padding: 0 10px;
 }
-.subPage .layout .navigation .wrap-right .btn{
+.subpage .layout .navigation .wrap-right .btn{
 	width: 70px;
 	height: 45px;
 	padding: 0 !important;
@@ -31,7 +31,7 @@
 	padding-left: 23px;
 	margin-left: -4px;
 }
-.subPage .layout .content{
+.subpage .layout .content{
 	padding: 0 40px;
 	background: #fff;
 	border: 0;

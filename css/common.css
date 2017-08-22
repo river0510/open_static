@@ -25,6 +25,7 @@ input{
 	min-width: 200px;
 	margin: auto;
 	padding: 0 40px;
+	box-sizing: content-box;
 }
 .wrap-right{
 	float: right;
